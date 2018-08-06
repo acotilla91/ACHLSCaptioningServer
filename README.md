@@ -1,4 +1,4 @@
-#ACHLSCaptioningServer            
+# ACHLSCaptioningServer            
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-iOS--tvOS-br.svg)
 ![Language](https://img.shields.io/badge/language-Objective--C-brightgreen.svg )
@@ -7,13 +7,13 @@ ACHLSCaptioningServer is an easy-to-use utility for dynamically adding VTT subti
 
 Last tested on Xcode 7.3, iOS 9.3.2, tvOS 9.2.1
 
-##Installation and Setup
+## Installation and Setup
 
-####Manual
+#### Manual
 1. Add ACHLSCaptioningServer folder to your project.
 2. In the project editor, select your target, click Build Phases and then under Link Binary With Libraries add libz.tbd and libxml2.tbd libraries to your target. (This is needed for GCDWebServer)
 
-##Usage
+## Usage
 ```objective-c
 
 NSURL *origStreamURL = your-original-stream-url
@@ -36,5 +36,5 @@ AVPlayerViewController *avPlayerController = [[AVPlayerViewController alloc] ini
 
 ```
 
-###Licensing
+### Licensing
 This project is licensed under the terms of the MIT license.
